@@ -447,17 +447,43 @@ Cypher queries are often much simpler than their SQL counterparts. Example Cyphe
 
 #### **Spatial Database**
 
+A type of database optimized for storing and querying spatial data like locations on a map. Spatial databases rely on spatial indexes like **quadtrees** to quickly perform spatial queries like finding all locations in the vicinity of a region.
+
 #### **Quadtree**
+
+A tree data structure most commonly used to index two-dimensional spatial data. Each node in a quadtree has either zero children nodes(and is therefore a leaf node) or exactly four children nodes.
+
+Typically, quadtree nodes contain some form of spatial data- for example, locations on a map- with a maximum capacity of some specified number **n**. So long as nodes aren't at capacity, they remain leaf nodes; once they reach capacity, they're given four children nodes, and their data entries are split across the four children nodes.
+
+A quadtree lends itself well to storing spatial data because it can be represented as a grid filled with rectangles that are recursively subdivided into four sub-rectangles, where each quadtree node is represented by a rectangle and each rectangle represents a spatial region. Assuming we're storing locations in the world, we can imagine a quadtree with a maximum node-capacity **n** as follows:
+
+-   The root node, which represents the entire world, is the outermost rectangle.
+-   If the entire world has more than **n** locations, the outermost rectangle is divided into four quadrants, each representing a region of the world.
+-   So long as a region has more than **n** locations, its corresponding rectangle is subdivided into four quadrants(the corresponding node in the quadtree is given four children nodes).
+-   Regions that have fewer than **n** locations are undivided rectangles(leaf nodes).
+-   The parts of the grid that have many subdivided rectangles represent densely populated areas(like cities), while the parts of the grid that have few subdivided rectangles represent sparsely populated areas(like rural areas).
+
+Finding a given location in a perfect quadtree is an extremely fast operation that runs in **log4(x)** time (where x is the total number of locations), since quadtree nodes have four children nodes.
 
 #### **Google Cloud Storage**
 
+GCS is a blob storage service provided by Google.
+
 #### **S3**
+
+S3 is a blob storage service provided by Amazon through **Amazon Web Series (AWS)**.
 
 #### **InfluxDB**
 
+A popular open-source time series database.
+
 #### **Prometheus**
 
+A popular open-source time series database, typically used for monitoring purposes.
+
 #### **Neo4j**
+
+A popular graph database that consists of nodes, relationships, properties, and labels.
 
 **[↑ Back to Top](#table-of-contents)**
 
