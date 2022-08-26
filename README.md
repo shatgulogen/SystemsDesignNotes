@@ -89,7 +89,8 @@ Short for **Domain Name System**, it describes the entities and protocols involv
 
     TCP is usually implemented in the kernel, which exposes sockets to applications that they can use to stream data through an open connection.
 
-    **HTTP**
+#### **HTTP**
+
     The HyperText Transfer Protocol is a very common network protocol implemented on top of TCP. Clients make HTTP requests, and servers respond with a response.
 
     Requests typically have the following schema:
@@ -112,7 +113,8 @@ Short for **Domain Name System**, it describes the entities and protocols involv
 
     ```
 
-    **IP Packet**
+#### **IP Packet**
+
     Sometimes more broadly referred to as just a (network) packet, an IP Packet is the smallest unit used to describe data being sent over IP, aside from bytes. An IP packet consists of:
 
     - an IP header, which contains the source and destination IP addresses as well as other information related to the network
