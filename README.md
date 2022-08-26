@@ -510,3 +510,169 @@ Sometimes called **data partitioning**, sharding is the act of splitting a datab
 When distributing a workload across a set of servers, that workload might be spread unevenly. This can happen if your **sharding key** or your **hashing function** are suboptimal, or if your workload is natually skewed: some servers will receive a lot more traffic than others, thus creating a "hot spot".
 
 **[↑ Back to Top](#table-of-contents)**
+
+---
+
+14. ### Leader Election
+
+---
+
+#### **Leader Election**
+
+#### **Consensus Algorithm**
+
+#### **Paxos & Raft**
+
+#### **Etcd**
+
+#### **ZooKeeper**
+
+**[↑ Back to Top](#table-of-contents)**
+
+---
+
+15. ### Peer-To-Peer Networks
+
+---
+
+#### **Peer-To-Peer Network**
+
+#### **Gossip Protocol**
+
+**[↑ Back to Top](#table-of-contents)**
+
+---
+
+16. ### Polling And Streaming
+
+---
+
+#### **Socket**
+
+#### **Polling**
+
+#### **Streaming**
+
+**[↑ Back to Top](#table-of-contents)**
+
+---
+
+17. ### Configuration
+
+---
+
+#### **JSON**
+
+#### **YAML**
+
+#### **Key-Value Store**
+
+#### **Configuration**
+
+**[↑ Back to Top](#table-of-contents)**
+
+---
+
+18. ### Rate Limiting
+
+---
+
+#### **Rate Limiting**
+
+#### **DoS Attack**
+
+#### **DDoS Attack**
+
+#### **Redis**
+
+**[↑ Back to Top](#table-of-contents)**
+
+---
+
+19. ### Logging And Monitoring
+
+---
+
+#### **Logging**
+
+#### **Monitoring**
+
+#### **Alerting**
+
+**[↑ Back to Top](#table-of-contents)**
+
+---
+
+20. ### Publish/Subscribe Pattern
+
+---
+
+#### **Polling**
+
+#### **Streaming**
+
+#### **Persistant Storage**
+
+#### **Publish/Subscribe Pattern**
+
+#### **Idempotent Operation**
+
+#### **Apache Kafka**
+
+#### **Cloud Pub/Sub**
+
+**[↑ Back to Top](#table-of-contents)**
+
+---
+
+21. ### Map Reduce
+
+---
+
+#### **Map Reduce**
+
+#### **Distributed File System**
+
+#### **Hadoop**
+
+**[↑ Back to Top](#table-of-contents)**
+
+---
+
+22. ### Security And HTTPS
+
+---
+
+#### **Man-In-The-Middle Attack**
+
+#### **Symmetric Encryption**
+
+#### **Asymmetric Encryption**
+
+#### **AES**
+
+#### **HTTPS**
+
+#### **TLS**
+
+#### **SSL Certificate**
+
+#### **Certificate Authority**
+
+#### **TLS Handshake**
+
+**[↑ Back to Top](#table-of-contents)**
+
+---
+
+23. ### API Design
+
+---
+
+#### **ACL**
+
+#### **Pagination**
+
+#### **CRUD Operations**
+
+**[↑ Back to Top](#table-of-contents)**
