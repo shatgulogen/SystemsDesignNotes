@@ -18,10 +18,10 @@ Study notes for systems design fundamentals referring to algoexpert.io and educa
 | 3   | [Storage](#storage)                                             |
 | 4   | [Latency And Throughput](#latency-and-throughput)               |
 | 5   | [Availability](#availability)                                   |
-| 6   | [Caching] (#caching)                                            |
-| 7   | [Proxies] (#proxies)                                            |
+| 6   | [Caching](#caching)                                             |
+| 7   | [Proxies](#proxies)                                             |
 | 8   | [Load Balancers](#load-balancers)                               |
-| 9   | [Hashing] (#hashing)                                            |
+| 9   | [Hashing](#hashing)                                             |
 | 10  | [Relational Databases](#relational-databases)                   |
 | 11  | [Key-Value Stores](#key-value-stores)                           |
 | 12  | [Specialized Storage Paradigms](#specialized-storage-paradigms) |
