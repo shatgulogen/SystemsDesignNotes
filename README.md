@@ -495,7 +495,15 @@ A popular graph database that consists of nodes, relationships, properties, and 
 
 #### **Replication**
 
+The act of duplicating the data from one database server to others. This is sometimes used to increase the redundancy of your system and tolerate regional failures for instance. Other times you can use replication to move data closer to your clients, thus decreasing the latency of accessing specific data.
+
 #### **Sharding**
+
+Sometimes called **data partitioning**, sharding is the act of splitting a database into two or more pieces called **shards** and is typically done to increase the throughput of your database. Popular sharding strategies include:
+
+-   Sharding based on a client's region.
+-   Sharding based on the type of data being stored(e.g: user data gets stored in one shard, payments data gets stored in another shard).
+-   Sharding based on the hash of a column(only for structured data).
 
 #### **Hot Spot**
 
