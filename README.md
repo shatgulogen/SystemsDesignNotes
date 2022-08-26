@@ -269,3 +269,23 @@ The policy by which values get evicted or removed from a cache. Popular cache ev
 A **CDN** is a third-party service that acts like a cache for your servers. Sometimes, web applications can be slow for users in a particular region if your servers are located only in another region. A CDN has servers all sround the world, meaning that the latency to a CDN's servers will almost always be far better than the latency to your servers. A CDN's servers are often referred to as **PoPs**(Points of Presence). Two of the most popular CDNs are **Cloudflare** and **Google Cloud CDN**.
 
 **[↑ Back to Top](#table-of-contents)**
+
+-
+
+7. ### Proxies
+
+---
+
+#### **Forward Proxy**
+
+A server that sits between a client and servers and acts on behalf of the client, typically used to mask the client's identity (IP address). Note that forwards proxies are often referred to as just proxies.
+
+#### **Reverse Proxy**
+
+A server that sits between a client and servers and acts on behalf of the servers, typically used for logging, load balancing, or caching.
+
+#### **Nginx**
+
+Pronounced "engine X", Nginx is a very popularwebserver that's often used as a **reverse proxy** and **load balancer**.
+
+**[↑ Back to Top](#table-of-contents)**
