@@ -155,3 +155,20 @@ Data stored in memory will be lost when the process that has written that data d
 Usually refers to disk, but in general it is any form of storage that persists if the process in charge of managing it dies.
 
 **[↑ Back to Top](#table-of-contents)**
+
+4. ### Latency And Throughput
+
+#### **Latency**
+
+The time it takes for a certain operation to complete in a system. Most often this measure is a time duration, like milliseconds or seconds.
+Orders of magnitude:
+
+-   Reading 1 MB from RAM: 0.25ms
+-   Reading 1 MB from SSD: 1ms
+-   Transfer 1 MB over Network: 10ms
+-   Reading 1 MB from HDD: 20ms
+-   Inter-Continental Round Trip: 150ms
+
+#### **Throughput**
+
+The number of operations that a system can handle properly per time unit. For instance the throughput of a server can often be measured in requests per second(RPS or QPS).
