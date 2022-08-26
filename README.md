@@ -333,3 +333,98 @@ A type of hashing also called **highest random weight** hashing. Allows for mini
 Short for "Secure Hash Algorithms", the SHA is a collection of cryptographic hash functions used in the industry. These days, SHA-3 is a popular choice to use in a system.
 
 **[↑ Back to Top](#table-of-contents)**
+
+---
+
+10. ### Relational Databases
+
+---
+
+#### **Relational Database**
+
+#### **Non-Relational Database**
+
+#### **SQL**
+
+#### **SQL Database**
+
+#### **NoSQL Database**
+
+#### **ACID Transaction**
+
+-
+-
+-
+-
+
+#### **Database Index**
+
+#### **Strong Consistency**
+
+#### **Eventual Consistency**
+
+#### **Postgres**
+
+**[↑ Back to Top](#table-of-contents)**
+
+---
+
+10. ### Key-Value Stores
+
+---
+
+#### **Key-Value Store**
+
+#### **Etcd**
+
+#### **Redis**
+
+#### **ZooKeeper**
+
+**[↑ Back to Top](#table-of-contents)**
+
+---
+
+11. ### Specialized Storage Paradigms
+
+---
+
+#### **Blob Storage**
+
+#### **Time Series Database**
+
+#### **Graph Database**
+
+#### **Cypher**
+
+#### **Spatial Database**
+
+#### **Quadtree**
+
+#### **Google Cloud Storage**
+
+#### **S3**
+
+#### **InfluxDB**
+
+#### **Prometheus**
+
+#### **Neo4j**
+
+**[↑ Back to Top](#table-of-contents)**
+
+---
+
+12. ### Replication And Sharding
+
+---
+
+#### **Replication**
+
+#### **Sharding**
+
+#### **Hot Spot**
+
+When distributing a workload across a set of servers, that workload might be spread unevenly. This can happen if your **sharding key** or your **hashing function** are suboptimal, or if your workload is natually skewed: some servers will receive a lot more traffic than others, thus creating a "hot spot".
+
+**[↑ Back to Top](#table-of-contents)**
