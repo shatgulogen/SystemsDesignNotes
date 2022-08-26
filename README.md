@@ -215,3 +215,21 @@ Short for "service-level agreement", an SLA is a collection of guarantees given 
 Short for "service-level objective", an SLO is a guarantee given to a customer by a service provider. SLOs typically make guarantees on a system's availability, amongst other things. SLOs constitute an SLA.
 
 **[↑ Back to Top](#table-of-contents)**
+
+6. ### Caching
+
+#### **Cache**
+
+A piece of hardware or software that stores data, typically meant to retrieve that data faster than otherwise.
+
+Caches are often used to store responses to network requests as well as results of computationally-long operations.
+
+Note that data in a cache can become **stale** if the main source of truth for that data(i.e., the main database behine the cache) gets updated and the cache doesn't.
+
+#### **Cache Hit**
+
+#### **Cache Miss**
+
+#### **Cache Eviction Policy**
+
+#### **Cache Delivery Network**
