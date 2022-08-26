@@ -270,7 +270,7 @@ A **CDN** is a third-party service that acts like a cache for your servers. Some
 
 **[↑ Back to Top](#table-of-contents)**
 
--
+---
 
 7. ### Proxies
 
@@ -289,3 +289,21 @@ A server that sits between a client and servers and acts on behalf of the server
 Pronounced "engine X", Nginx is a very popularwebserver that's often used as a **reverse proxy** and **load balancer**.
 
 **[↑ Back to Top](#table-of-contents)**
+
+---
+
+8. ### Load Balancers
+
+---
+
+#### **Load Balancer**
+
+A type of reverse proxy that distributes traffic across servers. Load balancers can be found in many parts of the system, from the DNS layer all the way to the database layer.
+
+#### **Server-Selection Strategy**
+
+How a load balancer chooses servers when distributing traffic amongst multiple servers. Commonly used strategies include round-robin, random selection, performance-based selection(choosing the server with the best performance metrics, like the fastest response time or the least amount of traffic), and IP-based routing.
+
+#### **Hot Spot**
+
+When distributing a workload across a set of servers, that workload might be spread unevenly. This can happen if your **sharding key** or your **hashing function** are suboptimal, or if your workload is natually skewed: some servers will receive a lot more traffic than others, thus creating a "hot spot".
