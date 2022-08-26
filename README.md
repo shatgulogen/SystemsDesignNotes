@@ -39,7 +39,11 @@ Study notes for systems design fundamentals referring to algoexpert.io and educa
 
 ## Systems Design Fundamentals
 
+---
+
 1. ### Client-Server Model
+
+---
 
 #### **Client**
 
@@ -78,7 +82,11 @@ Short for **Domain Name System**, it describes the entities and protocols involv
 
 **[↑ Back to Top](#table-of-contents)**
 
+---
+
 2. ### Network protocols
+
+---
 
 #### **IP**
 
@@ -123,7 +131,11 @@ Sometimes more broadly referred to as just a (network) packet, an IP Packet is t
 
 **[↑ Back to Top](#table-of-contents)**
 
+---
+
 3. ### Storage
+
+---
 
 #### **Databases**
 
@@ -156,7 +168,11 @@ Usually refers to disk, but in general it is any form of storage that persists i
 
 **[↑ Back to Top](#table-of-contents)**
 
+---
+
 4. ### Latency And Throughput
+
+---
 
 #### **Latency**
 
@@ -175,7 +191,11 @@ The number of operations that a system can handle properly per time unit. For in
 
 **[↑ Back to Top](#table-of-contents)**
 
+---
+
 5. ### Availability
+
+---
 
 #### **Process**
 
@@ -216,7 +236,11 @@ Short for "service-level objective", an SLO is a guarantee given to a customer b
 
 **[↑ Back to Top](#table-of-contents)**
 
+---
+
 6. ### Caching
+
+---
 
 #### **Cache**
 
