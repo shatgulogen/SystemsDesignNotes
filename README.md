@@ -307,3 +307,29 @@ How a load balancer chooses servers when distributing traffic amongst multiple s
 #### **Hot Spot**
 
 When distributing a workload across a set of servers, that workload might be spread unevenly. This can happen if your **sharding key** or your **hashing function** are suboptimal, or if your workload is natually skewed: some servers will receive a lot more traffic than others, thus creating a "hot spot".
+
+**[↑ Back to Top](#table-of-contents)**
+
+---
+
+9. ### Hashing
+
+---
+
+#### **Hashing Function**
+
+A function that takes in a specific data type(such as a string or an identifier) and outputs a number. Different inputs may have the same output, but a good hashing function attemps to minimize those hashing collisions(which is equivalent to maximizing **uniformity**).
+
+#### **Consistent Hashing**
+
+A type of hashing that minimizes the number of keys that need to be remapped when a hash table gets resized. It's often used by load balancers to distribute traffic to servers; it minimizes the number of requests that get forwarded to different servers when new servers are added or when existing servers are brought down.
+
+#### **Rendezvous Hashing**
+
+A type of hashing also called **highest random weight** hashing. Allows for minimal re-distribution of mappings when a server goes down.
+
+#### **SHA**
+
+Short for "Secure Hash Algorithms", the SHA is a collection of cryptographic hash functions used in the industry. These days, SHA-3 is a popular choice to use in a system.
+
+**[↑ Back to Top](#table-of-contents)**
