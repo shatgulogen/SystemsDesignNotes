@@ -84,7 +84,8 @@ Short for **Domain Name System**, it describes the entities and protocols involv
 
     Stands for Internet Protocol. This network protocol outlines how almost all machine-to-machine communications should happen in the world. Other protocols like TCP, UDP and HTTP are built on top of IP.
 
-    **TCP**
+#### **TCP**
+
     Network protocol built on top of the Internet Protocol (IP). Allows for ordered, reliable data delivery between machines over the public internet by creating a connection.
 
     TCP is usually implemented in the kernel, which exposes sockets to applications that they can use to stream data through an open connection.
@@ -117,10 +118,10 @@ Short for **Domain Name System**, it describes the entities and protocols involv
 
     Sometimes more broadly referred to as just a (network) packet, an IP Packet is the smallest unit used to describe data being sent over IP, aside from bytes. An IP packet consists of:
 
-    - an IP header, which contains the source and destination IP addresses as well as other information related to the network
-    - a payload, which is just the data being sent over the network
+       * an IP header, which contains the source and destination IP addresses as well as other information related to the network
+       * a payload, which is just the data being sent over the network
 
-    **[↑ Back to Top](#table-of-contents)**
+**[↑ Back to Top](#table-of-contents)**
 
 3. ### Storage
 
@@ -153,4 +154,4 @@ Short for **Domain Name System**, it describes the entities and protocols involv
 
     Usually refers to disk, but in general it is any form of storage that persists if the process in charge of managing it dies.
 
-    **[↑ Back to Top](#table-of-contents)**
+**[↑ Back to Top](#table-of-contents)**
