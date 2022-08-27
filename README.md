@@ -519,7 +519,7 @@ When distributing a workload across a set of servers, that workload might be spr
 
 #### **Leader Election**
 
-The process by which nodes in a cluster (for instance, server in a set of servers) elect a so-called "leader" amongst them, responsible for the promary operations of the service that these nodes support. When correctly implemented, leader election guarantees that all nodes in the cluster know which one is the leader at any given time and can elect a new leader if the leader dies for whatever reason.
+The process by which nodes in a cluster (for instance, server in a set of servers) elect a so-called "leader" amongst them, responsible for the primary operations of the service that these nodes support. When correctly implemented, leader election guarantees that all nodes in the cluster know which one is the leader at any given time and can elect a new leader if the leader dies for whatever reason.
 
 #### **Consensus Algorithm**
 
@@ -547,7 +547,11 @@ ZooKeeper is a strongly consistent, highly available key-value store. It's often
 
 #### **Peer-To-Peer Network**
 
+A collection of machines reffered to as peers that divide a workload between themselves to presumably complete the workload faster than would otherwise be possible. Peer-To-Peer networks are often used in file-distribution systems.
+
 #### **Gossip Protocol**
+
+When a set of machines talk to each other in a uncoordinated manner in a cluster to spread information through a system without requiring a central source of data.
 
 **[↑ Back to Top](#table-of-contents)**
 
