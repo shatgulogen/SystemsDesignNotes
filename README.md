@@ -589,11 +589,31 @@ In networking, it usually refers to the act of continuously getting a feed of in
 
 #### **JSON**
 
+A file format heavily used in APIs and configuration. Stands for **J**ava**S**cript **O**bject **N**otation. Example:
+
+```
+{
+    "version": 1.0,
+    "name": " XX Congiguration"
+}
+```
+
 #### **YAML**
+
+A file format mostly used in configuration. Example:
+
+```
+version: 1.0
+name: XX Configuration
+```
 
 #### **Key-Value Store**
 
+A Key-Value Store is a flexible NoSQL database that's often used for caching and dynamic configuration. Popular options include DynamoDB, Etcd, Redis, and ZooKeeper.
+
 #### **Configuration**
+
+A set of parameters or constants that are critical to a system. Configuration is typically written in **JSON** or **YAML** and can be either **static**, meaning that it's hard-coded in and shipped with your system's application code(like frontend code, for instance), or **dynamic**, meaning that it lives outside of your system's application code.
 
 **[↑ Back to Top](#table-of-contents)**
 
