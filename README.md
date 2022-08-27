@@ -32,8 +32,8 @@ Study notes for systems design fundamentals referring to algoexpert.io and educa
 | 17  | [Configuration](#configuration)                                 |
 | 18  | [Rate Limiting](#rate-limiting)                                 |
 | 19  | [Logging And Monitoring](#logging-and-monitoring)               |
-| 20  | [Publish/Subscribe Pattern](#publish-pattern-subscribe-pattern) |
-| 21  | [MapReduce](#mapreduce)                                         |
+| 20  | [Publish Or Subscribe Pattern](#publish-or-subscribe-pattern)   |
+| 21  | [MapReduce Intro](#mapreduce-intro)                             |
 | 22  | [Security And HTTPS](#security-and-https)                       |
 | 23  | [API Design](#api-design)                                       |
 
