@@ -248,7 +248,7 @@ A piece of hardware or software that stores data, typically meant to retrieve th
 
 Caches are often used to store responses to network requests as well as results of computationally-long operations.
 
-Note that data in a cache can become **stale** if the main source of truth for that data(i.e., the main database behine the cache) gets updated and the cache doesn't.
+Note that data in a cache can become **stale** if the main source of truth for that data(i.e., the main database behind the cache) gets updated and the cache doesn't.
 
 #### **Cache Hit**
 
@@ -519,13 +519,23 @@ When distributing a workload across a set of servers, that workload might be spr
 
 #### **Leader Election**
 
+The process by which nodes in a cluster (for instance, server in a set of servers) elect a so-called "leader" amongst them, responsible for the promary operations of the service that these nodes support. When correctly implemented, leader election guarantees that all nodes in the cluster know which one is the leader at any given time and can elect a new leader if the leader dies for whatever reason.
+
 #### **Consensus Algorithm**
+
+A type of complex algorithms used to have multiple entities agree on a single data value, like who the "leader" is amongst a group of machines. Two popular concensus algorithms are **Paxos** and **Raft**.
 
 #### **Paxos & Raft**
 
+Two consensus algorithms that, when implemented correctly, allow for the synchronization of certain operations, even in a distributed setting.
+
 #### **Etcd**
 
+Etcd is a strongly consistent and highly available key-value store that's often used to implement leader election in a system.
+
 #### **ZooKeeper**
+
+ZooKeeper is a strongly consistent, highly available key-value store. It's often used to store important configuration or to perform leader election.
 
 **[↑ Back to Top](#table-of-contents)**
 
