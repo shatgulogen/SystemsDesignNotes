@@ -811,8 +811,16 @@ The process through which a client and a server communicating over **HTTPS** exc
 
 #### **ACL**
 
+Short for **Access-Control List**. This term is often used to refer to a permissioning model: which users in a system can perform which operations. For instance, APIs often come with ACLs defining which users can delete, edit, or view certain entities.
+
 #### **Pagination**
 
+When a network request potentially warrants a ready large response, the relevant API might be designed to return only a single **page** of that response(i.e., a limited portion of the response), accompanied by an identifier or token for the client to request the next page if desired.
+
+Pagination is often used when designing **List** endpoints. For instance, and endpoint to list videos on the YouTube Trending page could return a huge list of videos. This wouldn't perform very well on mobile devices to the lower network speeds and simply wouln't be optimal, since most users will only ever scroll through the first ten or twenty videos. So, the API could be designed to respond with only the first few videos of that list; in this case, we would say that the API response is **paginated**.
+
 #### **CRUD Operations**
+
+Stands for **Create, Read, Update, Delete** Operations. These four operations often serve as the bedrock of a functioning system and therefore find themselves at the core of many APIs.
 
 **[↑ Back to Top](#table-of-contents)**
