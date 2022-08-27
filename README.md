@@ -663,7 +663,7 @@ The process through which system administrators get notified when critical syste
 
 ---
 
-20. ### Publish/Subscribe Pattern
+20. ### Publish Or Subscribe Pattern
 
 ---
 
@@ -703,7 +703,7 @@ A highly-scalable Pub/Sub messaging service created by Google. Guarantees **at-l
 
 ---
 
-21. ### Map Reduce
+21. ### MapReduce Intro
 
 ---
 
