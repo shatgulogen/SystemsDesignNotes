@@ -10,32 +10,37 @@ Study notes for systems design fundamentals referring to algoexpert.io and educa
 
 ### Table of Contents
 
-| No. | Contents                                                        |
-| --- | --------------------------------------------------------------- |
-|     | **Systems Design Fundamentals**                                 |
-| 1   | [Client-Server Model](#client-server-model)                     |
-| 2   | [Network Protocols](#network-protocols)                         |
-| 3   | [Storage](#storage)                                             |
-| 4   | [Latency And Throughput](#latency-and-throughput)               |
-| 5   | [Availability](#availability)                                   |
-| 6   | [Caching](#caching)                                             |
-| 7   | [Proxies](#proxies)                                             |
-| 8   | [Load Balancers](#load-balancers)                               |
-| 9   | [Hashing](#hashing)                                             |
-| 10  | [Relational Databases](#relational-databases)                   |
-| 11  | [Key-Value Stores](#key-value-stores)                           |
-| 12  | [Specialized Storage Paradigms](#specialized-storage-paradigms) |
-| 13  | [Relication And Sharding](#relication-and-sharding)             |
-| 14  | [Leader Election](#leader-election)                             |
-| 15  | [Peer-To-Peer Network](#peer-to-peer-network)                   |
-| 16  | [Polling And Streaming](#polling-and-streaming)                 |
-| 17  | [Configuration](#configuration)                                 |
-| 18  | [Rate Limiting](#rate-limiting)                                 |
-| 19  | [Logging And Monitoring](#logging-and-monitoring)               |
-| 20  | [Publish Or Subscribe Pattern](#publish-or-subscribe-pattern)   |
-| 21  | [MapReduce Intro](#mapreduce-intro)                             |
-| 22  | [Security And HTTPS](#security-and-https)                       |
-| 23  | [API Design](#api-design)                                       |
+| No. | Contents                                                            |
+| --- | ------------------------------------------------------------------- |
+|     | **Systems Design Fundamentals**                                     |
+| 1   | [Client-Server Model](#client-server-model)                         |
+| 2   | [Network Protocols](#network-protocols)                             |
+| 3   | [Storage](#storage)                                                 |
+| 4   | [Latency And Throughput](#latency-and-throughput)                   |
+| 5   | [Availability](#availability)                                       |
+| 6   | [Caching](#caching)                                                 |
+| 7   | [Proxies](#proxies)                                                 |
+| 8   | [Load Balancers](#load-balancers)                                   |
+| 9   | [Hashing](#hashing)                                                 |
+| 10  | [Relational Databases](#relational-databases)                       |
+| 11  | [Key-Value Stores](#key-value-stores)                               |
+| 12  | [Specialized Storage Paradigms](#specialized-storage-paradigms)     |
+| 13  | [Relication And Sharding](#relication-and-sharding)                 |
+| 14  | [Leader Election](#leader-election)                                 |
+| 15  | [Peer-To-Peer Network](#peer-to-peer-network)                       |
+| 16  | [Polling And Streaming](#polling-and-streaming)                     |
+| 17  | [Configuration](#configuration)                                     |
+| 18  | [Rate Limiting](#rate-limiting)                                     |
+| 19  | [Logging And Monitoring](#logging-and-monitoring)                   |
+| 20  | [Publish Or Subscribe Pattern](#publish-or-subscribe-pattern)       |
+| 21  | [MapReduce Intro](#mapreduce-intro)                                 |
+| 22  | [Security And HTTPS](#security-and-https)                           |
+| 23  | [API Design](#api-design)                                           |
+|     | **System Design Interview Questions**                               |
+| 1   | [Design A Code-Deployment System](#design-a-code-deployment-system) |
+| 2   | [Design Amazon](#design-amazon)                                     |
+| 3   | [Design Slack](#design-slack)                                       |
+| 4   | [Design Netflix](#design-netflix)                                   |
 
 ## Systems Design Fundamentals
 
@@ -822,5 +827,47 @@ Pagination is often used when designing **List** endpoints. For instance, and en
 #### **CRUD Operations**
 
 Stands for **Create, Read, Update, Delete** Operations. These four operations often serve as the bedrock of a functioning system and therefore find themselves at the core of many APIs.
+
+**[↑ Back to Top](#table-of-contents)**
+
+## Systems Design Interview Questions
+
+---
+
+1. ### Design A Code-Deployment System
+
+---
+
+#### **Design A Code-Deployment System**
+
+**[↑ Back to Top](#table-of-contents)**
+
+---
+
+2. ### Design Amazon
+
+---
+
+#### **Design Amazon**
+
+**[↑ Back to Top](#table-of-contents)**
+
+---
+
+3. ### Design Slack
+
+---
+
+#### **Design Slack**
+
+**[↑ Back to Top](#table-of-contents)**
+
+---
+
+4. ### Design Netflix
+
+---
+
+#### **Design Netflix**
 
 **[↑ Back to Top](#table-of-contents)**
